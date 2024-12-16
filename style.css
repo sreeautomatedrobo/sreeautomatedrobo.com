@@ -1,0 +1,29 @@
+/* General Styling */
+header {
+  background: linear-gradient(90deg, #4CAF50, #2F80ED);
+}
+
+footer {
+  background: #222;
+}
+
+nav a:hover {
+  text-decoration: underline;
+  color: #FFD700;
+}
+body {
+  text-align: center;
+  padding: 20px;
+}
+section {
+  margin-bottom: 30px;
+}
+@media (max-width: 768px) {
+  nav {
+      display: flex;
+      flex-direction: column;
+  }
+  nav a {
+      margin: 10px 0;
+  }
+}
